@@ -9,8 +9,9 @@ use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
 use Symfony\Component\Security\Core\User\UserProviderInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Response;
 use Psr\Log\LoggerInterface;
-use GaussAllianz\ShibbolethGuardBundle\Security\ShibbolethUserProviderInterface;
 use GaussAllianz\ShibbolethGuardBundle\Security\UsernameAttributeNotGivenException;
 use Exception;
 
