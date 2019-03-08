@@ -2,8 +2,10 @@
 
 ## Introduction
 Shibboleth is a Single-Sign-On system made for webservices. This bundle provide
-a Guard authenticator to use this authentication method in Symfony 2.8.
-Symfony previous Version 2.8 you should see
+a Guard authenticator to use this authentication method in Symfony 3.4.
+- Symfony Version 2.8 you should see
+https://github.com/roenschg/ShibbolethGuardBundle.
+- Symfony previous Version 2.8 you should see
 https://github.com/roenschg/ShibbolethBundle.
 
 
@@ -11,7 +13,8 @@ https://github.com/roenschg/ShibbolethBundle.
 This library can be install using composer.
 
 ```
-composer require "gauss-allianz/shibboleth-guard-bundle" "dev-master"
+composer config repositories.shibboleth vcs https://github.com/Kury25/ShibbolethGuardBundle
+composer require gauss-allianz/shibboleth-guard-bundle:dev-symfony34
 ```
 
 
