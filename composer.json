@@ -1,5 +1,5 @@
 {
-    "name": "gauss-allianz/shibboleth-guard-bundle",
+    "name": "gauss-allianz/shibboleth-guard-bundle-3",
     "description": "Bundle for Shibboleth SP authentication in symfony using the guard component.",
     "keywords": ["symfony3","security","shibboleth","guard", "gauss-allianz", "gauss","allianz"],
     "license": "Apache License 2.0",
